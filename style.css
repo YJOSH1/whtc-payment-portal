@@ -1,0 +1,82 @@
+/* Core styles */
+:root {
+    --white: #fff;
+    --grey: #d3d3d3;
+    --clay: #dd695f;
+    --black: #000;
+}
+
+body {
+    background-color: var(--grey);
+}
+
+/* Utility classes */
+
+.flex {
+    display: flex;
+    gap: var(--gap, 1rem);
+}
+
+.grid {
+    display: grid;
+    gap: var(--gap, 1rem);
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    border: 0;
+}
+
+/* Primary header */
+.logo {
+    margin: 2rem;
+}
+
+.primary-header {
+    align-items: center;
+    justify-content: space-between;
+}
+
+.mobile-nav-toggle {
+    display: none;
+}
+
+.primary-navigation {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+@media (max-width: 35em) {
+    .primary-navigation {
+        --gap: 2em;
+
+        position: fixed;
+        z-index: 1000;
+        inset: 0 0 0 30%;
+
+        flex-direction: column;
+        padding: min(30vh, 10rem) 2rem;
+        
+        background: var(--white);
+    }
+
+    .mobile-nav-toggle {
+        display: block;
+        position: absolute;
+        z-index: 9999;
+        background: url(/img/icon-hamburger.svg);
+        background-repeat: no-repeat;
+        border: 0;
+        width: 2rem;
+        aspect-ratio: 1;
+        top: 2rem;
+        right: 2rem;
+    }
+}
