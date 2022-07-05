@@ -255,8 +255,13 @@ h1 {
     }
 }
 
+/* main content */
+#main {
+    margin: 4rem 0 4rem 0;
+}
+
 /* footer */
 #jc-ref {
     text-align: center;
-    padding: 1rem 0rem 1rem 0rem;
+    padding: 0 0 1rem 0;
 }
