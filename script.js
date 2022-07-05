@@ -1,3 +1,4 @@
+// Script for mobile slide in menu 
 const primaryNav = document.querySelector('.primary-navigation');
 const navToggle = document.querySelector('.mobile-nav-toggle');
 
