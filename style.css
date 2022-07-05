@@ -5,7 +5,7 @@
 :root {
     /* colours */
     --clr-white: #fff;
-    --clr-grey: #f8f8f8;
+    --clr-grey: #bebebe;
     --clr-black: #000;
     --clr-clay: #dd695f;
 
@@ -62,6 +62,7 @@ body {
     text-rendering: optimizeSpeed;
     line-height: 1.5;
     color: var(--clr-black);
+    background: var(--clr-grey);
 }
 
 /* A elements that don't have a class get default styles */
@@ -111,9 +112,15 @@ p {
 
 /* font sizes */
 p,
-.primary-nav > li {
+a {
     font-size: var(--fs-400);
     font-weight: 400;
+    color: var(--clr-black);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--clr-clay);
 }
 
 h3 {
@@ -188,11 +195,14 @@ h1 {
 .primary-header {
     align-items: center;
     justify-content: space-between;
+    background: var(--clr-white);
+    border-bottom: solid var(--clr-clay) 2px;
+    border-radius: 0 0 20px 20px;
 }
 
 .mobile-nav-toggle {
     display: none;
-    margin-top: 2rem;
+    margin-top: 1.25em;
 }
 
 .primary-navigation {
@@ -213,7 +223,9 @@ h1 {
 
         flex-direction: column;
         padding: min(30vh, 10rem) 2em;
-        background: var(--clr-black);
+        background: var(--clr-white);
+        border-left: solid 2px var(--clr-clay);
+        border-radius: 20px 0 0px 20px;
 
         transform: translateX(100%);
         transition: transform 350ms ease-out;
@@ -239,5 +251,12 @@ h1 {
     .mobile-nav-toggle[aria-expanded="true"] {
         background: url(/img/icon-close.svg);
         background-repeat: no-repeat;
+        margin-top: 1.25em;
     }
+}
+
+/* footer */
+#jc-ref {
+    text-align: center;
+    padding: 1rem 0rem 1rem 0rem;
 }
