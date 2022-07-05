@@ -24,3 +24,8 @@ html {
     display: grid;
     gap: var(--gap, 1rem);
 }
+
+/* Primary header */
+.logo {
+    margin: 2rem;
+}
