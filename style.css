@@ -259,7 +259,8 @@ h1 {
 #jc-ref {
     position: absolute;
     bottom: 0;
-    width: 100%;
+    left: 0;
+    right: 0;
     text-align: center;
     padding: 0 0 1rem 0;
 }
