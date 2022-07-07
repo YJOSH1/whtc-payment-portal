@@ -311,3 +311,7 @@ h1 {
     text-align: center;
     padding-bottom: 1rem;
 }
+
+#jc-ref-link {
+    font-size: var(--fs-200);
+}
