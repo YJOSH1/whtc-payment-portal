@@ -299,16 +299,11 @@ h1 {
 
 .card-title {
     font-weight: 500;
-
 }
 
 @media (max-width: 45.75em) {
     .card-grid {
         grid-template-columns: none;
-    }
-    .card-title {
-        top: 1;
-        bottom: 1;
     }
 }
 
