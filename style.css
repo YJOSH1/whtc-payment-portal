@@ -238,13 +238,13 @@ h1 {
         top: 2rem;
         right: 2rem;
         z-index: 9999;
-        background: url(/img/icon-hamburger.svg);
+        background: url(./img/icon-hamburger.svg);
         background-repeat: no-repeat;
         border: none;
     }
 
     .mobile-nav-toggle[aria-expanded="true"] {
-        background: url(/img/icon-close.svg);
+        background: url(./img/icon-close.svg);
         background-repeat: no-repeat;
         margin-top: 1.25em;
     }
