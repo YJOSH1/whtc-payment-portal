@@ -276,6 +276,7 @@ h1 {
 }
 
 .card-grid {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     padding-top: 1.5rem;
     --gap: 1.5rem;
 }
@@ -296,11 +297,18 @@ h1 {
     display: block;
 }
 
+.card-title {
+    font-weight: 500;
+
+}
+
 @media (max-width: 45.75em) {
+    .card-grid {
+        grid-template-columns: none;
+    }
     .card-title {
         top: 1;
         bottom: 1;
-        font-weight: 500;
     }
 }
 
