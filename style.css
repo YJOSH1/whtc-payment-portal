@@ -204,7 +204,7 @@ h1 {
     list-style: none;
     --gap: 3rem;
     padding-block: 0;
-    padding-inline: clamp(3rem, 5vw, 10rem);
+    padding-inline: clamp(2rem, 5vw, 2rem);
     margin: 0;
 }
 
