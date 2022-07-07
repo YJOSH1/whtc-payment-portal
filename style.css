@@ -192,7 +192,7 @@ h1 {
     justify-content: space-between;
     background: var(--clr-white);
     border-bottom: solid var(--clr-clay) 2px;
-    border-radius: 0 0 20px 20px;
+    border-radius: 0 0 10px 10px;
 }
 
 .mobile-nav-toggle {
@@ -208,7 +208,11 @@ h1 {
     margin: 0;
 }
 
-@media (max-width: 35em) {
+#jc-mobile-menu {
+    display: none;
+}
+
+@media (max-width: 38em) {
     .primary-navigation {
         --gap: 2em;
         
@@ -220,7 +224,7 @@ h1 {
         padding: min(30vh, 10rem) 2em;
         background: var(--clr-white);
         border-left: solid 2px var(--clr-clay);
-        border-radius: 20px 0 0px 20px;
+        border-radius: 10px 0 0px 10px;
 
         transform: translateX(100%);
         transition: transform 350ms ease-out;
@@ -247,6 +251,17 @@ h1 {
         background: url(./img/icon-close.svg);
         background-repeat: no-repeat;
         margin-top: 1.25em;
+    }
+
+    #jc-mobile-menu {
+        display: block;
+        font-size: var(--fs-200);
+        position: absolute;
+        bottom: 0;
+        text-align: center;
+        right: 0;
+        left: 0;
+        padding: 0 0 1rem 0;
     }
 }
 
