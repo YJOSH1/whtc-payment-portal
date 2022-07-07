@@ -184,7 +184,7 @@ h1 {
 /* header */
 .logo {
     margin: 2rem;
-    height: 75px;
+    height: 5rem;
 }
 
 .primary-header {
@@ -239,7 +239,7 @@ h1 {
         position: absolute;
         width: 2rem;
         aspect-ratio: 1;
-        top: 2rem;
+        top: 1.75rem;
         right: 2rem;
         z-index: 9999;
         background: url(./img/icon-hamburger.svg);
@@ -250,7 +250,10 @@ h1 {
     .mobile-nav-toggle[aria-expanded="true"] {
         background: url(./img/icon-close.svg);
         background-repeat: no-repeat;
-        margin-top: 1.25em;
+    }
+
+    .logo {
+        height: 4rem;
     }
 
     #jc-mobile-menu {
