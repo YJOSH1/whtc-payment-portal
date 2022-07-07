@@ -194,6 +194,7 @@ h1 {
     background: var(--clr-white);
     border-bottom: solid var(--clr-clay) 2px;
     border-radius: 0 0 10px 10px;
+    box-shadow: 1px 1px 8px 2px var(--clr-shadow);
 }
 
 .mobile-nav-toggle {
