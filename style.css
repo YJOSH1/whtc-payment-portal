@@ -192,7 +192,7 @@ h1 {
     align-items: center;
     justify-content: space-between;
     background: var(--clr-white);
-    border-bottom: solid var(--clr-clay) 2px;
+    border-bottom: solid var(--clr-clay) 2.5px;
     border-radius: 0 0 10px 10px;
     box-shadow: 1px 1px 8px 2px var(--clr-shadow);
 }
@@ -225,7 +225,7 @@ h1 {
         flex-direction: column;
         padding: min(30vh, 10rem) 2em;
         background: var(--clr-white);
-        border-left: solid 1px var(--clr-clay);
+        border-left: solid 1.5px var(--clr-clay);
         border-radius: 10px 0 0px 10px;
 
         transform: translateX(100%);
