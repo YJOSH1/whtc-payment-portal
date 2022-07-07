@@ -284,9 +284,7 @@ h1 {
 .card {
     background: var(--clr-white);
     border-radius: 1.25rem 0 1.25rem 0;
-    align-items: center;
     box-shadow: 1px 1px 8px var(--clr-shadow);
-    --gap: 0.75rem;
     border-bottom: solid 1.5px var(--clr-clay);
 }
 
@@ -304,6 +302,11 @@ h1 {
 @media (max-width: 45.75em) {
     .card-grid {
         grid-template-columns: none;
+    }
+    
+    .card {
+        align-items: center;
+        --gap: 0.75rem;
     }
 }
 
