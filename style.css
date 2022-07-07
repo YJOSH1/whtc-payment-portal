@@ -5,7 +5,7 @@
 :root {
     /* colours */
     --clr-white: #fff;
-    --clr-grey: #fffafc;
+    --clr-background: #fffafe;
     --clr-black: #000;
     --clr-clay: #dd695f;
     --clr-shadow: rgba(0,0,0,.15);
@@ -63,7 +63,7 @@ body {
     text-rendering: optimizeSpeed;
     line-height: 1.5;
     color: var(--clr-black);
-    background: var(--clr-grey);
+    background: var(--clr-background);
 }
 
 /* A elements that don't have a class get default styles */
@@ -171,7 +171,7 @@ h1 {
   /* colours */
 
   .bg-white {background-color: var(--clr-white);}
-  .bg-grey {background-color: var(--clr-grey);}
+  .bg-grey {background-color: var(--clr-background);}
   .bg-clay {background-color: var(--clr-clay);}
 
   .text-white {color: var(--clr-white);}
