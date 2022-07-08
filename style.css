@@ -9,6 +9,7 @@
     --clr-black: #000;
     --clr-clay: #dd695f;
     --clr-shadow: rgba(0,0,0,.15);
+    --clr-green: #198754;
 
     /* font-sizes */
     --fs-900: 9.375rem;
@@ -172,6 +173,9 @@ h1 {
   .filter-clay {
     filter: invert(56%) sepia(25%) saturate(3968%) hue-rotate(324deg) brightness(96%) contrast(80%);
   }
+  .filter-green {
+    filter: invert(37%) sepia(65%) saturate(6387%) hue-rotate(144deg) brightness(89%) contrast(80%);
+  }
 
   .text-white {color: var(--clr-white);}
   .text-black {color: var(--clr-black);}
@@ -321,6 +325,38 @@ h1 {
         width: 4rem;
         padding: 1rem;
     }
+}
+
+.payment-confirmation {
+    text-align: center;
+}
+
+.payment-confirmation-img {
+    aspect-ratio: 1;
+    width: 7rem;
+    margin: auto;
+    margin-bottom: 1rem;
+    padding: 0;
+}
+
+.payment-confirmation > h1:nth-child(2) {
+    margin-bottom: 0.25rem;
+}
+
+.payment-confirmation > p:nth-child(3) {
+    margin-bottom: 1rem;
+}
+
+.button {
+    background: var(--clr-clay);
+    color: var(--clr-white);
+    border: none;
+    border-radius: 10px;
+    padding: 0.7rem;
+    transition: opacity 200ms ease-in;
+}
+.button:hover {
+    opacity: 80%;
 }
 
 /* footer */
