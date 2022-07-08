@@ -300,6 +300,10 @@ h1 {
     font-weight: 500;
 }
 
+.card-link {
+    transition: transform .2s ease-in-out;
+}
+
 @media (max-width: 45.75em) {
     .card-grid {
         grid-template-columns: none;
