@@ -278,6 +278,14 @@ h1 {
     min-width: 100%;
 }
 
+.breadcrumb {
+    margin-bottom: 0.5rem;
+}
+
+.crumb {
+    font-size: var(--fs-200);
+}
+
 .card-grid {
     grid-template-columns: 1fr 1fr;
     padding-top: 1.5rem;
