@@ -307,7 +307,7 @@ h1 {
     text-align: center;
 }
 
-@media (max-width: 41em) {
+@media (max-width: 45.75em) {
     .card-grid {
         grid-template-columns: none;
     }
