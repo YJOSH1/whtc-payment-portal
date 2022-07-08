@@ -301,10 +301,6 @@ h1 {
     text-align: center;
 }
 
-.card-link {
-    transition: transform .2s ease-in-out;
-}
-
 @media (max-width: 45.75em) {
     .card-grid {
         grid-template-columns: none;
