@@ -154,7 +154,7 @@ h1 {
 .container {
     padding-inline: 2em;
     margin-inline: auto;
-    max-width: 92rem;
+    max-width: 90rem;
 }
 
 .sr-only {
