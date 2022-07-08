@@ -275,6 +275,7 @@ h1 {
 /* main content */
 #main {
     margin: 5rem 0 5rem 0;
+    min-width: 100%;
 }
 
 .card-grid {
