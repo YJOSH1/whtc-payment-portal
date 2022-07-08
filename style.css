@@ -286,6 +286,11 @@ h1 {
     border-radius: 1.25rem 0 1.25rem 0;
     box-shadow: 1px 1px 8px var(--clr-shadow);
     padding: 3rem;
+    transition: transform 300ms ease-in;
+}
+
+.card:hover {
+    transform: scale(1.05);
 }
 
 .card-img {
