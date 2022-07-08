@@ -285,7 +285,7 @@ h1 {
     background: var(--clr-white);
     border-radius: 1.25rem 0 1.25rem 0;
     box-shadow: 1px 1px 8px var(--clr-shadow);
-    padding: 2rem;
+    padding: 3rem;
 }
 
 .card-img {
