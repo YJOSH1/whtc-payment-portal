@@ -282,7 +282,7 @@ h1 {
     background-color: #f44336; /* Red */
     color: white;
     border-radius: 10px;
-    max-width: 95%;
+    max-width: 95vw;
     margin: auto;
     font-weight: 600;
 }
