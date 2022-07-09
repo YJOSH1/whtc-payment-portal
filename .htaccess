@@ -1,0 +1,18 @@
+##Remove file extensions from url
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.html [NC,L]
+
+##Redirect visitor.html to visitor
+RedirectMatch 301 /visitor.html /visitor
+
+##Redirect competition.html to visitor
+RedirectMatch 301 /competition.html /competition
+
+##Redirect success.html to visitor
+RedirectMatch 301 /success.html /success
+
+##Redirect success-donation.html to visitor
+RedirectMatch 301 /success-donation.html /success-donation
+
+
