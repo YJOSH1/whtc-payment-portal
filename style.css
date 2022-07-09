@@ -216,7 +216,7 @@ h1 {
     display: none;
 }
 
-@media (max-width: 45.75em) {
+@media (max-width: 56em) {
     .primary-navigation {
         --gap: 2em;
         
