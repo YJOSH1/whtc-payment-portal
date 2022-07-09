@@ -278,6 +278,11 @@ h1 {
     min-width: 100%;
 }
 
+#comp,
+#visitor {
+    margin: 3rem 0 5rem 0;
+}
+
 .breadcrumb {
     margin-bottom: 0.75rem;
 }
