@@ -273,6 +273,17 @@ h1 {
 }
 
 /* main content */
+
+/* alert box */
+/* The alert message box */
+.alert {
+    transform: translateY(0.25rem);
+    padding: 20px;
+    background-color: #f44336; /* Red */
+    color: white;
+    border-radius: 10px;
+  }
+
 .main {
     margin: 5rem 0 5rem 0;
     min-width: 100%;
