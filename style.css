@@ -410,3 +410,10 @@ h1 {
 #jc-ref-link {
     font-size: var(--fs-200);
 }
+
+.fixed {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
