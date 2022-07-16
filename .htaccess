@@ -1,7 +1,10 @@
-##Remove file extensions from url
+##Remove file extensions and folder paths from url
 RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^([^\.]+)$ $1.html [NC,L]
+RewriteRule ^html/(.*)$ /$1 [L,NC,R=302]
+RewriteRule ^css/(.*)$ /$1 [L,NC,R=302]
+RewriteRule ^js/(.*)$ /$1 [L,NC,R=302]
 
 ##Redirect visitor.html to visitor
 RedirectMatch 301 /visitor.html /visitor
