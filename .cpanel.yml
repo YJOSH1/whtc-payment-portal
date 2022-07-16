@@ -1,4 +1,0 @@
-deployment:
-  tasks:
-    - export DEPLOYPATH=/home/wheelers/pay.wheelershilltennisclub.com/
-    - /bin/cp -R * $DEPLOYPATH
