@@ -306,7 +306,7 @@ h1 {
 }
 
 .crumb-link-inactive {
-    text-decoration: underline var(--clr-clay) 1px;
+    text-decoration: underline var(--clr-black) 1px;
 }
 
 .card-grid {
