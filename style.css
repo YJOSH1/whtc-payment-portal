@@ -305,6 +305,10 @@ h1 {
     font-size: var(--fs-200);
 }
 
+.crumb-link-inactive {
+    text-decoration: underline var(--clr-clay) 1px;
+}
+
 .card-grid {
     grid-template-columns: 1fr 1fr;
     padding-top: 1.5rem;
