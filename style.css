@@ -279,7 +279,7 @@ h1 {
 .alert {
     transform: translateY(0.25rem);
     padding: 20px;
-    background-color: #f44336; /* Red */
+    background-color: var(--clr-green); /* Red */
     color: white;
     border-radius: 10px;
     max-width: 95%;
